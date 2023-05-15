@@ -78,7 +78,7 @@ task 'watch', 'compile and watch', (options) ->
 # ```
 # cake test
 # ```
-task 'test', 'run tests', -> build -> mocha -> log ":)", green
+task 'test', 'run tests', -> build -> mocha -> log "Test ran", green
 
 # ## *clean*
 #
@@ -89,7 +89,7 @@ task 'test', 'run tests', -> build -> mocha -> log ":)", green
 # ```
 # cake clean
 # ```
-task 'clean', 'clean generated files', -> clean -> log ";)", green
+task 'clean', 'clean generated files', -> clean -> log "Cleanup", green
 
 
 # Internal Functions
