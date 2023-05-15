@@ -1,4 +1,4 @@
-# Cakefile Template
+# ♨️ Oven
 
 If you write a lot of coffeescript and get tired of 
 setting up your build, watch and spec tasks, grab this 
