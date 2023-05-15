@@ -55,7 +55,7 @@ task 'docs', 'generate documentation', -> docco()
 # cake build
 # ```
 task 'build', 'compile source', (options) -> 
-  build false, (-> log ":-)", green), useMapping: useMapping = options.map
+  build false, (-> log "Sourced has been compiled", green), useMapping: useMapping = options.map
 
 # ## *watch*
 #
@@ -67,7 +67,7 @@ task 'build', 'compile source', (options) ->
 # cake watch
 # ```
 task 'watch', 'compile and watch', (options) ->
-  build true, (-> log ":-)", green), useMapping: useMapping = options.map
+  build true, (-> log "Watcher", green), useMapping: useMapping = options.map
 
 # ## *test*
 #
