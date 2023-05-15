@@ -1,18 +1,7 @@
 # ♨️ Oven
 
-If you write a lot of coffeescript and get tired of 
-setting up your build, watch and spec tasks, grab this 
-Cakefile and put it in your project.
+Offical oven for cakes. Original by [twilson63](https://github.com/twilson63)
 
-# Install
-
-```bash
-# In your project directory...
-curl https://raw.github.com/twilson63/cakefile-template/master/Cakefile >> Cakefile
-## If that does not work... try
-curl https://raw.githubusercontent.com/twilson63/cakefile-template/master/Cakefile >> Cakefile
-
-```
 # Usage
 
 ## Compiling
